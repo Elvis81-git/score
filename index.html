@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>一卡通刷卡系統</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📱 一卡通刷卡模擬系統</h1>
+
+  <input id="cardId" type="text" placeholder="請輸入卡號 (例如 A01)" />
+  <button onclick="fetchUser()">查詢使用者</button>
+
+  <div id="userInfo" style="display:none;">
+    <p>👤 姓名：<span id="name"></span></p>
+    <p>💰 餘額：<span id="balance"></span> 元</p>
+    <button onclick="deductMoney()">➖ 扣款 30 元</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
