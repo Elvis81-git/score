@@ -1,4 +1,4 @@
-const scriptUrl = "https://script.google.com/macros/s/YOUR_SCRIPT_URL/exec";
+const scriptUrl = "https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbyH8hXSf0fsmoqD_Ah6rfsodk2Rmrw3uq307XkSLUKMgXpTdVBNyo9WTe-AwPGuwlUH/exec/exec";
 let currentId = "";
 
 async function fetchUser() {
